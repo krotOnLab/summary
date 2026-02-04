@@ -1,0 +1,22 @@
+logging:
+  level: "info"
+  log_dir: "logs"
+  max_log_days: 7
+
+openrouter:
+  default_model: "mistralai/mistral-7b-instruct:nitro"
+  request_delay: 5.0
+  max_retries: 2
+
+summarization:
+  strategy: "hierarchical"
+  temperature: 0.3
+  pause_between_files: 2.0
+  min_files_for_aggregation: 2
+
+extraction:
+  ocr_lang: "rus+eng"
+  recursive: true
+
+output_dir: "output"
+source_dir: "source_data"
