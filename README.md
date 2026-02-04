@@ -42,7 +42,7 @@
 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/your-username/ocr-app.git
+git clone https://github.com/krotOnLab/summary.git
 cd ocr-app
 ```
 
